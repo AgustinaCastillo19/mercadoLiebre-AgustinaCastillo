@@ -25,8 +25,3 @@ app.get('/login', (req, res)=>{
 app.listen(PORT, ()=>{
     console.log(`servidor funcionando en el puerto ${PORT}`);
 })
-
-/*EN JSON: (sin el lock) */
-/*"scripts": {
-    "test": "nodemon app.js",
-    "start": "node app.js"*/
